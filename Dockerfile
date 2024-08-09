@@ -1,5 +1,4 @@
 FROM ruby:2.7
-MAINTAINER Santiago Ramos, sramos@sitiodistinto.net
 
 # Set the base directory used in any further RUN, COPY, and ENTRYPOINT
 # commands.
@@ -32,7 +31,7 @@ RUN bundle _1.17.3_ exec rake RAILS_ENV=production DB_HOST=127.0.0.1 DB_NAME=dbn
 #VOLUME ["/railsapp/public"]
 
 # Start the application with Puma
-EXPOSE 3000
+EXPOSE 8080
 
 # Run migrations and start the application with Puma
 ENTRYPOINT ["/railsapp/script/entrypoint"]

@@ -5,7 +5,7 @@ production:
 delivery_method: :smtp
 smtp_settings:
 address: localhost
-port: 25
+port: 80
 domain: "example.com"
 user_name: "noreply@example.com"
 

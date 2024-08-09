@@ -148,7 +148,7 @@ Si lo que queremos es instalar un servicio funcional, procederemos con los pasos
 
 Si queremos instalar LibreTPV para utilizarlo y no sólo para desarrollar sobre él, instalaremos el módulo de Apache:
 
-  $ gem install passenger
+  $ 
 
 lo compilaremos siguiendo las instrucciones del comando:
 
